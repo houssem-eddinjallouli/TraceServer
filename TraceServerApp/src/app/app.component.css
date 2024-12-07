@@ -1,0 +1,63 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  /* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 1px solid #dee2e6; /* Subtle border for separation */
+    padding: 10px 20px; /* Padding for navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for brand */
+    font-weight: bold; /* Bold font */
+    color: #007bff; /* Primary color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-brand:hover {
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .nav-link {
+    font-size: 1rem; /* Font size for links */
+    color: #343a40; /* Dark gray color */
+    padding: 10px 15px; /* Padding around links */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #007bff; /* Primary color on hover or active */
+    background-color: rgba(0, 123, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Toggler button styles */
+  .navbar-toggler {
+    border: none; /* Remove border */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Primary color for toggler icon */
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px; /* Padding for container */
+    max-width: 1200px; /* Maximum width */
+    margin: auto; /* Centering the container */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items on smaller screens */
+    }
+  }

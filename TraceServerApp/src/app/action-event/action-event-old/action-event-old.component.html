@@ -1,0 +1,21 @@
+<div class="bg-body-secondary text-center py-3 rounded-2">
+    <h1 class="dispay-6 fw-bold">Old Events</h1>
+</div>
+
+<br><br>
+<div class="row">
+    <div class="col-4" *ngFor="let ev of service.oldList.reverse()">
+
+        <div class="card" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ ev.title }}</h5>
+                <p class="card-text">{{ ev.description }}</p>
+                <p class="card-text"><small class="text-muted">Created at: {{ ev.createdAt | date:'short' }}</small></p>
+                <p class="card-text"><small class="text-muted">Updated at: {{ ev.updatedAt ? (ev.updatedAt | date:'short') : 'N/A' }}</small></p>
+                <p class="card-text"><small class="text-muted">Status: {{ ev.isDeleted ? 'Inactive' : 'Active' }}</small></p>             
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      #MSSQL_SA_PASSWORD: "YourStrong!Password"
+      SA_PASSWORD: "YourStrong!Password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - houssemnetwork
+
+  dotnet-app:
+    build:
+      context: ./TraceServerAPI/TraceServerAPI
+      dockerfile: Dockerfile
+    container_name: dotnet-app
+    ports:
+      - "5067:5067"
+    depends_on:
+      - sqlserver
+    environment:
+      #- ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
+      - DOTNET_RUNNING_IN_CONTAINER=true
+    networks:
+      - houssemnetwork
+    restart: on-failure
+
+  angular-app:
+    build:
+      context: ./TraceServerApp
+      dockerfile: Dockerfile
+    container_name: angular-app
+    ports:
+      - "4200:4200"
+    networks:
+      - houssemnetwork
+
+volumes:
+  sql_data:
+
+networks:
+  houssemnetwork:

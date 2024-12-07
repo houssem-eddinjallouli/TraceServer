@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0FfmRBwD3YA9F20yJpPseli6zq2U76RqYYXBjSovksE=",
+  "Source": "TraceServerAPI",
+  "BasePath": "_content/TraceServerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

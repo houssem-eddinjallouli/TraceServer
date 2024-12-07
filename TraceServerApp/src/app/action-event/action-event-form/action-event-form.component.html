@@ -1,0 +1,20 @@
+<form #form="ngForm" (submit)="onSubmit(form)" [class.submitted]="service.formSubmitted" novalidate autocomplete="off">
+    <input type="hidden" name="paymentDetailId" [value]="service.formData.actionEventId">
+    <div class="mb-3">
+      <label>Card Owner Name</label>
+      <input class="form-control form-control-lg" placeholder="Title of The event" #title="ngModel" name="title"
+        [(ngModel)]="service.formData.title" required>
+    </div>
+    <div class="mb-3">
+      <label>Card Number</label>
+      <input class="form-control form-control-lg" placeholder="description of the event" #description="ngModel"
+        name="description" [(ngModel)]="service.formData.description" required minlength="1" maxlength="100">
+    </div>
+  
+    <div class="d-grid">
+      <button class="btn btn-lg btn-success" type="submit">
+        Save the event
+      </button>
+    </div>
+  
+  </form>

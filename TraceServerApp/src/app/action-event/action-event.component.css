@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mouse-hover {
+    cursor: pointer;
+  }
+.card {
+    margin: 15px;
+}

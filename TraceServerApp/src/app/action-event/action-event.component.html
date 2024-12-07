@@ -1,0 +1,32 @@
+<div class="bg-body-secondary text-center py-3 rounded-2">
+    <h1 class="dispay-6 fw-bold">List of Events</h1>
+</div>
+<br>
+<button class="btn btn-info" (click)="displayform=!displayform"> {{ displayform ? 'Hide Form' : 'Add an Event' }} </button>
+<div class="row" *ngIf="displayform">
+    <app-action-event-form/>
+</div>
+<br><br>
+<div class="row">
+    <div class="col-4" *ngFor="let ev of service.list.reverse()">
+
+        <div class="card" >
+            <span class="text-danger text-end" style="float: right;">
+                <i class="fa fa-trash-can mouse-hover fa-lg" aria-hidden="true" (click)="onDelete(ev.actionEventId)"></i>
+            </span>
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ ev.title }}</h5>
+                <p class="card-text">{{ ev.description }}</p>
+                <p class="card-text"><small class="text-muted">Created at: {{ ev.createdAt | date:'short' }}</small></p>
+                <p class="card-text"><small class="text-muted">Updated at: {{ ev.updatedAt ? (ev.updatedAt | date:'short') : 'N/A' }}</small></p>
+                <p class="card-text"><small class="text-muted">Status: {{ ev.isDeleted ? 'Inactive' : 'Active' }}</small></p>
+                
+                <a (click)="populateForm(ev)" class="btn btn-primary">Update the event</a>
+                <a (click)="isDelete(ev)" class="btn btn-warning m-2">{{ ev.isDeleted ? 'Activate' : 'Desactivate' }}</a>
+                              
+            </div>
+        </div>
+
+    </div>
+</div>
