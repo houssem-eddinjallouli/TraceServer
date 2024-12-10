@@ -14,7 +14,8 @@
             <span class="text-danger text-end" style="float: right;">
                 <i class="fa fa-trash-can mouse-hover fa-lg" aria-hidden="true" (click)="onDelete(ev.actionEventId)"></i>
             </span>
-            <img src="..." class="card-img-top" alt="...">
+            <img [src]="getImageUrl(ev)" class="card-img-top" alt="Primary Image">
+
             <div class="card-body">
                 <h5 class="card-title">{{ ev.title }}</h5>
                 <p class="card-text">{{ ev.description }}</p>

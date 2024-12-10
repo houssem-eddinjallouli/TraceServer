@@ -5,4 +5,6 @@ export class ActionEvent {
   createdAt: Date = new Date();
   updatedAt: Date | null = null;
   isDeleted: boolean = false;
+  imageData?: Blob; 
+  //imagePath: string = '';
 }

@@ -8,6 +8,7 @@ import { NgForm } from '@angular/forms';
   providedIn: 'root'
 })
 export class ActionEventService {
+  file?: File;
   url:string = environment.apiBaseUrl + '/ActionEvent'
   list: ActionEvent[] = [];
   oldList: ActionEvent[] = [];
@@ -29,10 +30,32 @@ export class ActionEventService {
   }
 
   postActionEvent() {
-    return this.http.post(this.url, this.formData)
+    const formData = new FormData();
+  
+    // Append ActionEvent fields to FormData
+    formData.append('Title', this.formData.title);
+    formData.append('Description', this.formData.description);
+    formData.append('CreatedAt', this.formData.createdAt.toISOString());
+    if (this.formData.updatedAt) {
+      formData.append('UpdatedAt', this.formData.updatedAt.toISOString());
+    }
+    formData.append('IsDeleted', String(this.formData.isDeleted));
+  
+    // Append the file if it exists
+    if (this.file) {
+      formData.append('file', this.file);
+    }
+  
+    return this.http.post(this.url, formData, {
+      headers: {
+        // Let the browser set the correct headers for multipart/form-data
+      }
+    });
   }
+  
 
   putActionEvent() {
+    
     this.formData.updatedAt = new Date();
     return this.http.put(this.url + '/' + this.formData.actionEventId, this.formData)
   }

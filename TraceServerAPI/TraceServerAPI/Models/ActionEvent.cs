@@ -20,6 +20,8 @@ namespace TraceServerAPI.Models
         [DataType(DataType.DateTime)]
         public DateTime? UpdatedAt { get; set; } = null;
         public bool IsDeleted { get; set; } = false;
+        [Column(TypeName = "varbinary(max)")]
+        public byte[]? ImageData { get; set; }= null;
 
         public void MarkAsDeleted()
         {

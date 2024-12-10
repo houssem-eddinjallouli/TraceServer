@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraceServerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80ee4a9f6dc494a5deaddeffa211fb8af6bfd32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bdf7e23f97fd95ffa2ff0f10dac74d8782e7046")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraceServerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraceServerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\2022-10-13-113419.jpg",
+      "PackagePath": "staticwebassets\\images\\2022-10-13-113419.jpg"
+    },
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\CIN EUVAZIE.jpg",
+      "PackagePath": "staticwebassets\\images\\CIN EUVAZIE.jpg"
+    },
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Cxfghjapture.PNG",
+      "PackagePath": "staticwebassets\\images\\Cxfghjapture.PNG"
+    },
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Nouveau projet.psd",
+      "PackagePath": "staticwebassets\\images\\Nouveau projet.psd"
+    },
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\WIN_20240118_10_29_00_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20240118_10_29_00_Pro.jpg"
+    },
+    {
+      "Id": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\mail-227.png",
+      "PackagePath": "staticwebassets\\images\\mail-227.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TraceServerAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TraceServerAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TraceServerAPI.props",
+      "PackagePath": "build\\TraceServerAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TraceServerAPI.props",
+      "PackagePath": "buildMultiTargeting\\TraceServerAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TraceServerAPI.props",
+      "PackagePath": "buildTransitive\\TraceServerAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

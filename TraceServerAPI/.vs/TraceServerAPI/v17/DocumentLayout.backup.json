@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\models\\actionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\models\\actionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\models\\actioneventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\models\\actioneventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\controllers\\actioneventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\controllers\\actioneventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|solutionrelative:traceserverapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5A0E208-B672-4036-A352-F7771307D3B7}|TraceServerAPI\\TraceServerAPI.csproj|d:\\workspace\\traceserver\\traceserverapi\\traceserverapi\\traceserverapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -30,56 +54,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "TraceServerAPI\\Dockerfile",
-              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Dockerfile",
-              "RelativeToolTip": "TraceServerAPI\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-07T13:26:54.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TraceServerAPI.http",
-              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\TraceServerAPI.http",
-              "RelativeDocumentMoniker": "TraceServerAPI\\TraceServerAPI.http",
-              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\TraceServerAPI.http",
-              "RelativeToolTip": "TraceServerAPI\\TraceServerAPI.http",
+              "Title": "ActionEventContext.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Models\\ActionEventContext.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Models\\ActionEventContext.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Models\\ActionEventContext.cs",
+              "RelativeToolTip": "TraceServerAPI\\Models\\ActionEventContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-07T13:14:01.848Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:05:01.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "TraceServerAPI\\WeatherForecast.cs",
-              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\WeatherForecast.cs",
-              "RelativeToolTip": "TraceServerAPI\\WeatherForecast.cs",
+              "Title": "20241210215157_updateimagefix.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs",
+              "RelativeToolTip": "TraceServerAPI\\Migrations\\20241210215157_updateimagefix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:13:55.77Z",
+              "WhenOpened": "2024-12-10T21:51:57.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActionEventController.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Controllers\\ActionEventController.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Controllers\\ActionEventController.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Controllers\\ActionEventController.cs",
+              "RelativeToolTip": "TraceServerAPI\\Controllers\\ActionEventController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:00:14.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ActionEvent.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Models\\ActionEvent.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Models\\ActionEvent.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Models\\ActionEvent.cs",
+              "RelativeToolTip": "TraceServerAPI\\Models\\ActionEvent.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:00:13.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Program.cs",
               "RelativeDocumentMoniker": "TraceServerAPI\\Program.cs",
               "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Program.cs",
               "RelativeToolTip": "TraceServerAPI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T10:51:23.787Z",
               "EditorCaption": ""
@@ -92,10 +129,71 @@
               "RelativeDocumentMoniker": "TraceServerAPI\\appsettings.json",
               "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\appsettings.json",
               "RelativeToolTip": "TraceServerAPI\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAACDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-07T10:43:08.974Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241210195842_uploadimage.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs",
+              "RelativeToolTip": "TraceServerAPI\\Migrations\\20241210195842_uploadimage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:58:42.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Dockerfile",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Dockerfile",
+              "RelativeToolTip": "TraceServerAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T13:26:54.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TraceServerAPI.http",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\TraceServerAPI.http",
+              "RelativeDocumentMoniker": "TraceServerAPI\\TraceServerAPI.http",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\TraceServerAPI.http",
+              "RelativeToolTip": "TraceServerAPI\\TraceServerAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-07T13:14:01.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TraceServerAPI\\WeatherForecast.cs",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "TraceServerAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:13:55.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TraceServerAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TraceServerAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T19:04:11.15Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { ActionEventService } from '../../services/action-event.service';
 import { FormsModule, NgForm } from '@angular/forms';
 import { ActionEvent } from '../../services/action-event.model';
@@ -11,10 +11,19 @@ import { ToastrService } from 'ngx-toastr';
   styleUrl: './action-event-form.component.css',
 })
 export class ActionEventFormComponent {
+  selectedFile: File | null = null;
   constructor(
     public service: ActionEventService,
     private toastr: ToastrService
   ) {}
+  @ViewChild('file') fileInput: any;
+
+  onFileChange(event: Event) {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files.length > 0) {
+      this.service.file = input.files[0];
+    }
+  }  
 
   onSubmit(form: NgForm) {
     this.service.formSubmitted = true
@@ -33,6 +42,10 @@ export class ActionEventFormComponent {
         next: res => {
           this.service.list = res as ActionEvent[];
           this.service.resetForm(form);
+          this.selectedFile = null; // Clear selected file
+          if (this.fileInput) {
+            this.fileInput.nativeElement.value = ''; // Reset the file input
+          }
           this.toastr.success('Inserted successfully!', 'Event registered!');
         },
         error: err => { 

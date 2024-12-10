@@ -11,6 +11,16 @@
         name="description" [(ngModel)]="service.formData.description" required minlength="1" maxlength="100">
     </div>
   
+    <div class="mb-3">
+      <label for="file">Event Image</label>
+      <input #file
+        type="file"
+        id="file"
+        class="form-control"
+        (change)="onFileChange($event)"
+      />
+    </div>
+
     <div class="d-grid">
       <button class="btn btn-lg btn-success" type="submit">
         Save the event

@@ -48,19 +48,74 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/ActionEvent"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ActionEvent"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ActionEvent"
+                "required": [
+                  "Description",
+                  "Title"
+                ],
+                "type": "object",
+                "properties": {
+                  "ActionEventId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Title": {
+                    "maxLength": 16,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Description": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "CreatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "UpdatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "IsDeleted": {
+                    "type": "boolean"
+                  },
+                  "ImageData": {
+                    "type": "string",
+                    "format": "byte"
+                  },
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ActionEventId": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "CreatedAt": {
+                  "style": "form"
+                },
+                "UpdatedAt": {
+                  "style": "form"
+                },
+                "IsDeleted": {
+                  "style": "form"
+                },
+                "ImageData": {
+                  "style": "form"
+                },
+                "file": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -264,6 +319,11 @@
           },
           "isDeleted": {
             "type": "boolean"
+          },
+          "imageData": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
           }
         },
         "additionalProperties": false

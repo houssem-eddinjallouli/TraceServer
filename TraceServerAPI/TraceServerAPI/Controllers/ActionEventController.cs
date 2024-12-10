@@ -76,13 +76,30 @@ namespace TraceServerAPI.Controllers
         // POST: api/ActionEvent
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<ActionEvent>> PostActionEvent(ActionEvent actionEvent)
+        public async Task<ActionResult<ActionEvent>> PostActionEvent([FromForm] ActionEvent actionEvent, IFormFile? file)
         {
-            _context.actionEvents.Add(actionEvent);
-            await _context.SaveChangesAsync();
+            //
+            try
+            {
+                if (file != null)
+                { 
+                    // Convert the file to byte array and set ImageData
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        await file.CopyToAsync(memoryStream);
+                        actionEvent.ImageData = memoryStream.ToArray();
+                    }
+                }
+                //
+                _context.actionEvents.Add(actionEvent);
+                await _context.SaveChangesAsync();
 
-            //return CreatedAtAction("GetActionEvent", new { id = actionEvent.ActionEventId }, actionEvent);
-            return Ok(await _context.actionEvents.ToListAsync());
+                //return CreatedAtAction("GetActionEvent", new { id = actionEvent.ActionEventId }, actionEvent);
+                return Ok(await _context.actionEvents.ToListAsync());
+            }
+            catch (Exception ex) {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         // DELETE: api/ActionEvent/5

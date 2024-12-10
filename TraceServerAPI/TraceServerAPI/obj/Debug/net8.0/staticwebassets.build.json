@@ -1,12 +1,640 @@
 {
   "Version": 1,
-  "Hash": "0FfmRBwD3YA9F20yJpPseli6zq2U76RqYYXBjSovksE=",
+  "Hash": "tbaB0bdq5UuFHOr4/95c8l3zBn2bMbouIEziIOBfvSg=",
   "Source": "TraceServerAPI",
   "BasePath": "_content/TraceServerAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "TraceServerAPI\\wwwroot",
+      "Source": "TraceServerAPI",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\2022-10-13-113419.jpg",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/2022-10-13-113419#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3tdko6hgjb",
+      "Integrity": "GX030Nt7Si3AwFWkUBKlDHoQEVbZmtiBCvFnuHYJxAE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2022-10-13-113419.jpg"
+    },
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\CIN EUVAZIE.jpg",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/CIN EUVAZIE#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8nd03gvh85",
+      "Integrity": "7GeHlTK5tOmHxwC3L50Qt1gaEuf6UqlEi2fGpn7IWAU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CIN EUVAZIE.jpg"
+    },
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Cxfghjapture.PNG",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/Cxfghjapture#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "auwl7868lr",
+      "Integrity": "fn8a0yAnIiaE98lKHgA7rdj/B85KdQmTODTed/Z3Bt0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cxfghjapture.PNG"
+    },
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\mail-227.png",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/mail-227#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hy4xpok3ll",
+      "Integrity": "p0+32wyM1IzCdN7cUiH1ttjKF2OrWwRS9s+21+eTHBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mail-227.png"
+    },
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Nouveau projet.psd",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/Nouveau projet#[.{fingerprint}]?.psd",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g98ixdzgiv",
+      "Integrity": "VD+2/PI8pQMkXRuUcp5DIepg4RTHFc24e4PtcxnbCsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Nouveau projet.psd"
+    },
+    {
+      "Identity": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\WIN_20240118_10_29_00_Pro.jpg",
+      "SourceId": "TraceServerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\",
+      "BasePath": "_content/TraceServerAPI",
+      "RelativePath": "images/WIN_20240118_10_29_00_Pro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eakk7dz8fl",
+      "Integrity": "SnH/Pk9T8fPoKwwcp5nMQ8DDxUjIiAgEojdr6ZPQN+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\WIN_20240118_10_29_00_Pro.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/2022-10-13-113419.3tdko6hgjb.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\2022-10-13-113419.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GX030Nt7Si3AwFWkUBKlDHoQEVbZmtiBCvFnuHYJxAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:46:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tdko6hgjb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2022-10-13-113419.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GX030Nt7Si3AwFWkUBKlDHoQEVbZmtiBCvFnuHYJxAE="
+        }
+      ]
+    },
+    {
+      "Route": "images/2022-10-13-113419.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\2022-10-13-113419.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GX030Nt7Si3AwFWkUBKlDHoQEVbZmtiBCvFnuHYJxAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:46:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GX030Nt7Si3AwFWkUBKlDHoQEVbZmtiBCvFnuHYJxAE="
+        }
+      ]
+    },
+    {
+      "Route": "images/CIN EUVAZIE.8nd03gvh85.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\CIN EUVAZIE.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GeHlTK5tOmHxwC3L50Qt1gaEuf6UqlEi2fGpn7IWAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:45:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8nd03gvh85"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CIN EUVAZIE.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GeHlTK5tOmHxwC3L50Qt1gaEuf6UqlEi2fGpn7IWAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/CIN EUVAZIE.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\CIN EUVAZIE.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GeHlTK5tOmHxwC3L50Qt1gaEuf6UqlEi2fGpn7IWAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:45:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GeHlTK5tOmHxwC3L50Qt1gaEuf6UqlEi2fGpn7IWAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Cxfghjapture.auwl7868lr.PNG",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Cxfghjapture.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fn8a0yAnIiaE98lKHgA7rdj/B85KdQmTODTed/Z3Bt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auwl7868lr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Cxfghjapture.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fn8a0yAnIiaE98lKHgA7rdj/B85KdQmTODTed/Z3Bt0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Cxfghjapture.PNG",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Cxfghjapture.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fn8a0yAnIiaE98lKHgA7rdj/B85KdQmTODTed/Z3Bt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fn8a0yAnIiaE98lKHgA7rdj/B85KdQmTODTed/Z3Bt0="
+        }
+      ]
+    },
+    {
+      "Route": "images/mail-227.hy4xpok3ll.png",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\mail-227.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p0+32wyM1IzCdN7cUiH1ttjKF2OrWwRS9s+21+eTHBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hy4xpok3ll"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mail-227.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p0+32wyM1IzCdN7cUiH1ttjKF2OrWwRS9s+21+eTHBQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/mail-227.png",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\mail-227.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p0+32wyM1IzCdN7cUiH1ttjKF2OrWwRS9s+21+eTHBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p0+32wyM1IzCdN7cUiH1ttjKF2OrWwRS9s+21+eTHBQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Nouveau projet.g98ixdzgiv.psd",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Nouveau projet.psd",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VD+2/PI8pQMkXRuUcp5DIepg4RTHFc24e4PtcxnbCsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g98ixdzgiv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Nouveau projet.psd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VD+2/PI8pQMkXRuUcp5DIepg4RTHFc24e4PtcxnbCsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Nouveau projet.psd",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\Nouveau projet.psd",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VD+2/PI8pQMkXRuUcp5DIepg4RTHFc24e4PtcxnbCsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VD+2/PI8pQMkXRuUcp5DIepg4RTHFc24e4PtcxnbCsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/WIN_20240118_10_29_00_Pro.eakk7dz8fl.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\WIN_20240118_10_29_00_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnH/Pk9T8fPoKwwcp5nMQ8DDxUjIiAgEojdr6ZPQN+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eakk7dz8fl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/WIN_20240118_10_29_00_Pro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnH/Pk9T8fPoKwwcp5nMQ8DDxUjIiAgEojdr6ZPQN+0="
+        }
+      ]
+    },
+    {
+      "Route": "images/WIN_20240118_10_29_00_Pro.jpg",
+      "AssetFile": "D:\\workspace\\TraceServer\\TraceServerAPI\\TraceServerAPI\\wwwroot\\images\\WIN_20240118_10_29_00_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnH/Pk9T8fPoKwwcp5nMQ8DDxUjIiAgEojdr6ZPQN+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:47:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnH/Pk9T8fPoKwwcp5nMQ8DDxUjIiAgEojdr6ZPQN+0="
+        }
+      ]
+    }
+  ]
 }

@@ -52,4 +52,12 @@ export class ActionEventComponent implements OnInit {
       },
     });
   }
+
+  getImageUrl(event: ActionEvent): string {
+    if (event.imageData ) {
+      return 'data:' + event.imageData.type + ';base64,' + event.imageData;
+    }
+    return '';
+  }
+
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TraceServerAPI.Models;
 
@@ -11,9 +12,11 @@ using TraceServerAPI.Models;
 namespace TraceServerAPI.Migrations
 {
     [DbContext(typeof(ActionEventContext))]
-    partial class ActionEventContextModelSnapshot : ModelSnapshot
+    [Migration("20241210195842_uploadimage")]
+    partial class uploadimage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,6 +43,10 @@ namespace TraceServerAPI.Migrations
 
                     b.Property<byte[]>("ImageData")
                         .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImagePath")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
